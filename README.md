@@ -1,6 +1,6 @@
 # PaliGemma2-Mix LitServe
 
-[![Open In Studio](https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg)](https://lightning.ai/sitammeur/studios/deploy-docci-fine-tuned-paligemma-2-vision-language-model)
+[![Open In Studio](https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg)](https://lightning.ai/sitammeur/studios/deploy-paligemma-2-mix-vision-language-model)
 
 [PaliGemma 2](https://huggingface.co/collections/google/paligemma-2-release-67500e1e1dbfdd4dee27ba48) incorporates the **Gemma 2** family of language models and the **SigLIP-So400m** vision encoder, making it a significant upgrade from PaliGemma. PaliGemma 2 mix checkpoints are fine-tuned on diverse tasks and ready to use out of the box, while pt checkpoints are pre-trained and intended for further fine-tuning. These tasks include short and long captioning, optical character recognition, question answering, object detection and segmentation, and more. This project shows how to create a self-hosted, private API that deploys [PaliGemma 2 mix](https://huggingface.co/google/paligemma2-3b-mix-448) model variant with LitServe, an easy-to-use, flexible serving engine for AI models built on FastAPI.
 
